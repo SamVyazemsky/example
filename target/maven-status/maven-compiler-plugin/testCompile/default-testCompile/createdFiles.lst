@@ -1,0 +1,5 @@
+my/company/tests/SimpleTest.class
+my/company/tests/TheoryTest.class
+my/company/tests/ParameterizedTest.class
+my/company/tests/DataProviderTest.class
+my/company/tests/SearchTest.class
