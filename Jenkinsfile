@@ -33,7 +33,7 @@ pipeline {
       stage('Results') {
           steps {
              echo "tests execute"
-             sh 'apt-get install allure'
+             sh 'apt install allure'
              sh "allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]"
               
           }
