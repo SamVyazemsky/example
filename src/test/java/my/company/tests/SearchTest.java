@@ -13,22 +13,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
  *         Date: 28.10.13
  */
 public class SearchTest {
+    
 
-    private WebDriverSteps steps;
+//     private WebDriverSteps steps;
 
-    @Before
-    public void setUp() throws Exception {
-        ChromeDriverManager.getInstance().setup();
-        steps = new WebDriverSteps(new ChromeDriver());
-    }
+//     @Before
+//     public void setUp() throws Exception {
+//         ChromeDriverManager.getInstance().setup();
+//         steps = new WebDriverSteps(new ChromeDriver());
+//     }
 
-    @Test
-    @Issue("ISSUE-1")
-    public void searchTest() throws Exception {
-        steps.openMainPage();
-        steps.search("Allure framework");
-        steps.makeScreenShot();
-        steps.quit();
-    }
+//     @Test
+//     @Issue("ISSUE-1")
+//     public void searchTest() throws Exception {
+//         steps.openMainPage();
+//         steps.search("Allure framework");
+//         steps.makeScreenShot();
+//         steps.quit();
+//     }
 }
 
