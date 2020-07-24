@@ -21,3 +21,5 @@ $ ./mvnw allure:serve
 * Mailing list: [allure@yandex-team.ru](mailto:allure@qameta.io)
 * Gitter chat room: [https://gitter.im/allure-framework/allure-core](https://gitter.im/allure-framework/allure-core)
 * StackOverflow tag: [Allure](http://stackoverflow.com/questions/tagged/allure)
+
+Test Jenkins
