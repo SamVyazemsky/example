@@ -33,9 +33,9 @@ pipeline {
       stage('Results') {
           steps {
              echo "tests execute"
-             sh 'sudo apt-add-repository ppa:qameta/allure'
-             sh 'sudo apt-get update'
-             sh 'sudo apt-get install allure'
+             sh 'apt-add-repository ppa:qameta/allure'
+             sh 'apt-get update'
+             sh 'apt-get install allure'
              sh "allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]"
               
           }
